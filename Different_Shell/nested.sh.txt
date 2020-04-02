@@ -1,0 +1,21 @@
+#!/bin/bash
+
+sam() {
+	echo "Hello I am Samiul"
+	echo "Aiub"
+	echo "CSE"
+}
+echo
+sam1 () {
+	echo "Govt Azizul Haque College,Bogura"
+	echo "Science"
+}
+echo 
+sam2 () {
+	echo "BCPSC"
+	echo "Science"
+}
+
+sam
+sam1
+sam2

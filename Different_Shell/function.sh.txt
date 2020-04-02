@@ -1,0 +1,13 @@
+
+#!/bin/bash
+# Define your function:
+MyName () {
+	echo "My Name is $1 $2 $3"
+	return 10
+}
+
+# Calling function
+MyName Samiul Alam Shykot
+echo
+ret=$?
+echo "Return value is $ret "
